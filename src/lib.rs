@@ -2,7 +2,7 @@
 #[macro_use]
 extern crate enum_primitive_derive;
 #[cfg(feature = "impl-external-image")]
-extern crate image;
+pub extern crate image;
 extern crate num_traits;
 extern crate djed_self_tokenize_macro;
 extern crate djed_self_tokenize_trait;
